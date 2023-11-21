@@ -1,6 +1,6 @@
 {
   "name": "@zwoo/theme-docs",
-  "version": "0.0.1",
+  "version": "1.0.0-beta.0",
   "description": "VitePress theme based on the zwoo ui theme.",
   "license": "MIT",
   "main": "src/index.ts",
