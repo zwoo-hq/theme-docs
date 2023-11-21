@@ -1,0 +1,39 @@
+{
+  "name": "@zwoo/theme-docs",
+  "version": "0.0.1",
+  "description": "VitePress theme based on the zwoo ui theme.",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "author": "Fabian Kachlock",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwoo-hq/theme-docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zwoo-hq/theme-docs/issues"
+  },
+  "homepage": "https://github.com/zwoo-hq/theme-docs#readme",
+  "keywords": [
+    "vitepress",
+    "theme"
+  ],
+  "scripts": {
+    "format": "prettier --write --parser typescript \"{playground,src}/**/*.ts\"",
+    "dev": "vitepress dev playground",
+    "serve": "vitepress build playground && vitepress serve playground"
+  },
+  "dependencies": {
+    "vitepress": "^1.0.0-rc.29",
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2"
+  }
+}
