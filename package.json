@@ -25,6 +25,7 @@
   ],
   "scripts": {
     "format": "prettier --write --parser typescript \"{playground,src}/**/*.ts\"",
+    "format:ci": "prettier --check --parser typescript \"{playground,src}/**/*.ts\"",
     "dev": "vitepress dev playground",
     "serve": "vitepress build playground && vitepress serve playground"
   },
