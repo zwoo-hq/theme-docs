@@ -1,5 +1,4 @@
-import { defineConfig } from "vitepress"
-
+import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   title: '@zwoo/theme-docs',
@@ -7,13 +6,20 @@ export default defineConfig({
   lang: 'en-US',
   lastUpdated: true,
   themeConfig: {
-    socialLinks: [{
-      icon: 'github',
-      link: 'https://github.com/zwoo-hq/theme-docs'
-    }],
-    sidebar: [{
-      text: 'ZWOO Docs',
-      link: '/not-ready'
-    }]
+    search: {
+      provider: 'local'
+    },
+    socialLinks: [
+      {
+        icon: 'github',
+        link: 'https://github.com/zwoo-hq/theme-docs'
+      }
+    ],
+    sidebar: [
+      {
+        text: 'ZWOO Docs',
+        link: '/not-ready'
+      }
+    ]
   }
-})
+});
